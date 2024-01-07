@@ -1,0 +1,108 @@
+/* Add styles for the hover effect */
+.grid-item:not(.header):not(.smaller):not(.big) {
+    transition: transform 0.3s ease-in-out;
+}
+
+/* Add hover effect only to specific grid items */
+.grid-item:not(.header):not(.smaller):not(.big):hover {
+    transform: scale(1.05);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Manrope', sans-serif;
+    font-weight: 300; /* Use the Thin (300) version of Manrope */
+    background-color: #E9E8E8;
+    color: #1C2127;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 20px;
+    margin: 0 200px;
+}
+
+.grid-item, .header {
+    border: 1px solid black;
+    padding: 15px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.6);
+    height: 250px;
+    position: relative;
+}
+
+.grid-item.smaller {
+    height: 100px;
+    position: relative;
+}
+
+.grid-item p {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    margin: 7px;
+    padding: 7px;
+}
+
+.grid-item.dropdown {
+    overflow: visible;
+}
+
+.grid-item.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+	outline:1px solid black;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.6);
+    padding: 10px;
+    z-index: 1;
+    width: 100%;
+    top: 100%; /* Adjusted to appear below the article */
+    left: 0; /* Adjusted to align with the left edge of the article */
+}
+
+/* Display dropdown items in a column */
+.dropdown-content a {
+    display: block;
+    padding: 10px;
+    margin: 5px 0;
+    color: #1C2127;
+    text-decoration: none;
+    border: 1px solid black;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.header {
+    grid-column: span 3;
+    font-size: 130px;
+}
+
+article {
+
+}
+
+h2, a h2 {
+    color: #1C2127;
+    text-decoration: none !important; /* Remove underline for h2 and h2 within anchor tags */
+}
+
+p {
+    color: #1C2127;
+}
+
+a {
+    text-decoration: none;
+}

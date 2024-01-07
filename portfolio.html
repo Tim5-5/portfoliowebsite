@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;700&display=swap">
+
+    <title>Portfolio</title>
+</head>
+<body>
+    <div class="grid-container">
+        <div class="grid-item header">
+            Portfolio
+        </div>
+
+        <div class="grid-item smaller dropdown" onclick="toggleDropdown(this)">
+            <article>
+                <h2>Project</h2>
+                <p>Project</p>
+            </article>
+            <div class="dropdown-content">
+                <label><input type="checkbox" value="category1"> Social Sphere</label><br>
+                <label><input type="checkbox" value="category2"> Individueel Project</label><br>
+                <label><input type="checkbox" value="category3"> International week</label><br>
+            </div>
+        </div>
+        <div class="grid-item smaller dropdown" onclick="toggleDropdown(this)">
+            <article>
+                <h2>Leeruitkomst</h2>
+                <p>Leeruitkomst</p>
+            </article>
+            <div class="dropdown-content">
+                <label><input type="checkbox" value="category4"> Leeruitkomst 1</label><br>
+                <label><input type="checkbox" value="category5"> Leeruitkomst 2</label><br>
+                <label><input type="checkbox" value="category6"> Leeruitkomst 3</label><br>
+				<label><input type="checkbox" value="category7"> Leeruitkomst 4</label><br>
+                <label><input type="checkbox" value="category8"> Leeruitkomst 5</label><br>
+                <label><input type="checkbox" value="category9"> Leeruitkomst 6</label><br>
+				<label><input type="checkbox" value="category10"> Leeruitkomst 7</label><br>
+            </div>
+        </div>
+        <div class="grid-item smaller" onclick="toggleDropdown(this)">
+            <article>
+                <h2></h2>
+                <p></p>
+            </article>
+            <div class="dropdown-content">
+                <label><input type="checkbox" value="category1"> Leeruitkomst 1</label>
+                <label><input type="checkbox" value="category2"> Leeruitkomst 2</label>
+                <label><input type="checkbox" value="category3"> Leeruitkomst 3</label>
+            </div>
+        </div>
+
+        <a href="interviewdynamo.html" class="grid-item" data-category="category1">
+            <article>
+                <h2>Dynamo Interview</h2>
+                <p>Interview</p>
+            </article>
+        </a>
+        <a href="socialsphereprojectplan.html" class="grid-item" data-category="category1">
+            <article>
+                <h2>Projectplan social sphere</h2>
+                <p>Literature study</p>
+            </article>
+        </a>		
+        <a href="poster.html" class="grid-item" data-category="category1">
+            <article>
+                <h2>Poster</h2>
+                <p>Literature study</p>
+            </article>
+        </a>
+        <a href="prototypeprivacy.html" class="grid-item" data-category="category1">
+            <article>
+                <h2>Prototype privacy wetgeving</h2>
+                <p>Prototyping</p>
+            </article>
+        </a>
+        <a href="onderzoekcontent.html" class="grid-item" data-category="category1">
+            <article>
+                <h2>Content onderzoek Social Sphere</h2>
+                <p>Literature study</p>
+            </article>
+        </a>
+        <a href="stakeholder.html" class="grid-item" data-category="category1">
+            <article>
+                <h2>Stakeholder contact</h2>
+                <p></p>
+            </article>
+        </a>		
+        <a href="presentatie.html" class="grid-item" data-category="category1">
+            <article>
+                <h2>Presentatie over voortgang</h2>
+                <p></p>
+            </article>
+        </a>
+        <a href="deelvraag4.html" class="grid-item" data-category="category1">
+            <article>
+                <h2>Deelvraag 4 Literature study</h2>
+                <p>Literature study</p>
+            </article>
+        </a>
+        <a href="deelvraag5.html" class="grid-item" data-category="category1">
+            <article>
+                <h2>Deelvraag 5 Literature study</h2>
+                <p>Literature study</p>
+            </article>
+        </a>
+        <a href="internationalweek.html" class="grid-item" data-category="category3">
+            <article>
+                <h2>International week</h2>
+                <p></p>
+            </article>
+        </a>
+		<a href="malaga.html" class="grid-item" data-category="category3">
+            <article>
+                <h2>WeyWeyWeb Malaga</h2>
+                <p></p>
+            </article>
+        </a>
+        <a href="onderzoekportfolio.html" class="grid-item" data-category="category2">
+            <article>
+                <h2>Projectplan portfolio</h2>
+                <p>Literature study</p>
+				<p>Literature study</p>
+				<p>A/B Test</p>
+            </article>
+        </a>
+        <a href="wireframes.html" class="grid-item" data-category="category2">
+            <article>
+                <h2>Portfolio wireframes</h2>
+                <p>Wireframe</p>
+            </article>
+        </a>
+        <a href="brandguide.html" class="grid-item" data-category="category2">
+            <article>
+                <h2>Onderzoek deelvraag 3 Portfolio</h2>
+                <p>Literature study</p>
+            </article>
+        </a>
+        <a href="deelvraag1.html" class="grid-item" data-category="category2">
+            <article>
+                <h2>Onderzoek deelvraag 1 Portfolio</h2>
+                <p>Literature study</p>
+            </article>
+        </a>
+        <a href="deelvraag2.html" class="grid-item" data-category="category2">
+            <article>
+                <h2>Onderzoek deelvraag 2 Portfolio</h2>
+                <p>Literature study</p>
+            </article>
+        </a>		
+        <a href="design.html" class="grid-item" data-category="category2">
+            <article>
+                <h2>Portfolio Design</h2>
+                <p>Benchmark Creation</p>
+				<p>Best, good and bad practices</p>
+            </article>
+        </a>
+		<a href="ontwikkeling.html" class="grid-item" data-category="category2">
+            <article>
+                <h2>Ontwikkeling portfolio</h2>
+                <p>Tinkering</p>
+            </article>
+        </a>
+        <a href="test.html" class="grid-item" data-category="category2">
+            <article>
+                <h2>Usability test portfolio</h2>
+                <p>Usability test</p>
+            </article>
+        </a>
+        <a href="feedpulse.html" class="grid-item" data-category="category2">
+            <article>
+                <h2>Feedback</h2>
+                <p></p>
+            </article>
+        </a>		
+    </div>
+
+<script src="script.js"></script>
+
+</body>
+</html>

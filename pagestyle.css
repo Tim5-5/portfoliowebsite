@@ -1,0 +1,29 @@
+ body {
+            font-family: 'Manrope', sans-serif;
+            margin: 20px auto; /* Center the body horizontally */
+            padding: 20px;
+            max-width: 1400px; /* Set the maximum width of the body */
+        }
+
+        article {
+            border: 1px solid black;
+            padding: 70px;
+        }
+
+        h1 {
+            font-size: 2.5em; /* Increase the font size of h1 */
+            border-bottom: 1px solid black;
+            padding-bottom: 15px; /* Increase the padding under h1 for more space */
+            margin-bottom: 20px; /* Add margin at the bottom of h1 for more space */
+        }
+
+        p {
+            font-size: 1.2em;
+            line-height: 1.6;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            margin: 20px 0;
+        }
