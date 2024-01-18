@@ -16,9 +16,9 @@
 
 body {
     font-family: 'Manrope', sans-serif;
-    font-weight: 300; /* Use the Thin (300) version of Manrope */
+    font-weight: 400; /* Use the Thin (300) version of Manrope */
     background-color: #E9E8E8;
-    color: #1C2127;
+    color: #212427;
 }
 
 .grid-container {

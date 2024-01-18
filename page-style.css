@@ -1,0 +1,65 @@
+        body {
+            font-family: 'Manrope', sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            padding-left: 0%; 
+			padding-right: 0%;
+			background-color: #E9E8E8 ;
+        }
+		
+		#sidebar img {
+            height: 1em; 
+            vertical-align: middle; 
+            margin-left: 5px;
+		}
+        #sidebar {
+            width: 250px;
+            background-color: #1C2127 ;
+            padding: 20px;
+			padding-top: 200px;
+            color: #ecf0f1;
+            box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+            height: 100vh;
+			text-align: center;
+        }
+
+        #sidebar h2 {
+            color: #ecf0f1;
+			padding-top: 75px;
+        }
+
+        #content {
+            flex: 1;
+            padding: 150px;
+			padding-top: 100px;
+        }
+		
+        #content h2 {
+			color: #2c3e50;
+        }
+	
+
+        #content h1 {
+            font-size: 2.5em;
+            border-bottom: 1px solid black;
+            padding-bottom: 15px;
+            margin-bottom: 20px;
+            color: #2c3e50;
+        }
+
+        #content p {
+            font-size: 1.2em;
+            line-height: 1.6;
+            color: #2c3e50;
+
+			padding-bottom: 15px;
+
+        }
+		
+		placeholder {
+
+	border: 1px solid black;
+    padding: 15px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.6);
+}
